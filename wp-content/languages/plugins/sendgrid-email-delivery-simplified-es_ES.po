@@ -1,0 +1,182 @@
+# Translation of Plugins - SendGrid - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - SendGrid - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-10 08:08:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - SendGrid - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://sendgrid.com"
+msgstr "http://sendgrid.com"
+
+#. Description of the plugin/theme
+msgid "Email Delivery. Simplified. SendGrid's cloud-based email infrastructure relieves businesses of the cost and complexity of maintaining custom email systems. SendGrid provides reliable delivery, scalability and real-time analytics along with flexible APIs that make custom integration a breeze."
+msgstr "Envío de correo electrónico, simplificado. La infraestructura de correo electrónico basada en nube de SendGrid libera a las empresas del coste y la complejidad de mantener sistemas de correo electrónico personalizados. SendGrid proporciona una entrega fiable, escalabilidad y análiticas en tiempo real junto con APIs flexibles que hacen de la integración algo trivial."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+msgstr "http://es.wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+
+#: wpsendgrid.php:43
+msgid "PHP-curl extension must be enabled in order to add attachments."
+msgstr "La extensión PHP-curl debe estar habilitada para poder añadir archivos adjuntos."
+
+#: wpsendgrid.php:25
+msgid "SendGrid: Plugin require PHP >= 5.3.0."
+msgstr "SendGrid: el plugin necesita PHP >= 5.3.0."
+
+#: view/sendgrid_settings.php:150
+msgid "Send"
+msgstr "Enviar"
+
+#: view/sendgrid_settings.php:141
+msgid "Headers: "
+msgstr "Cabeceras: "
+
+#: view/sendgrid_settings.php:135
+msgid "Body: "
+msgstr "Cuerpo: "
+
+#: view/sendgrid_settings.php:129
+msgid "Subject: "
+msgstr "Asunto: "
+
+#: view/sendgrid_settings.php:123
+msgid "To: "
+msgstr "Para: "
+
+#: view/sendgrid_settings.php:118
+msgid "Send a test email with these settings"
+msgstr "Enviar un correo electrónico de prueba con estos ajuste"
+
+#: view/sendgrid_settings.php:117
+msgid "SendGrid Test"
+msgstr "Prueba de SendGrid"
+
+#: view/sendgrid_settings.php:112
+msgid "Update Settings"
+msgstr "Actualizar opciones"
+
+#: view/sendgrid_settings.php:105
+msgid "Disabled fields in this form means that they are already configured in the config file."
+msgstr "Los campos deshabilitados de esta forma quieren decir que ya estaban configurados en el fichero de configuración."
+
+#: view/sendgrid_settings.php:98
+msgid ""
+"Associates the category of the email this should be logged as. <br />\n"
+"            Categories must be separated by commas (Example: category1, category2)."
+msgstr ""
+"Asocia con qué categoría de email debe guardarse el registro de esto. <br />\n"
+"             Las categorías deben estar separadas por comas (Ejemplo: categoria1, categoria2)."
+
+#: view/sendgrid_settings.php:97
+msgid "Leave blank to send without categories."
+msgstr "Dejar en blanco para enviar sin categorías."
+
+#: view/sendgrid_settings.php:94
+msgid "Categories: "
+msgstr "Categorías: "
+
+#: view/sendgrid_settings.php:90
+msgid "Email address where replies will be returned."
+msgstr "Dirección de correo electrónico donde se devolverán las respuestas."
+
+#: view/sendgrid_settings.php:89
+msgid "Leave blank to use Sending Address."
+msgstr "Dejar en blanco para usar la Dirección de envío."
+
+#: view/sendgrid_settings.php:86
+msgid "Reply Address: "
+msgstr "Dirección respuesta:"
+
+#: view/sendgrid_settings.php:82
+msgid "Email address from which the message will be sent."
+msgstr "Dirección de email desde donde el mensaje se enviará."
+
+#: view/sendgrid_settings.php:79
+msgid "Sending Address: "
+msgstr "Dirección de envío:"
+
+#: view/sendgrid_settings.php:75
+msgid "Name as it will appear in recipient clients."
+msgstr "El nombre que aparecerá en la bandeja de entrada de los clientes."
+
+#: view/sendgrid_settings.php:72
+msgid "Name: "
+msgstr "Nombre:"
+
+#: view/sendgrid_settings.php:68
+msgid "Mail settings"
+msgstr "Configuración email"
+
+#: view/sendgrid_settings.php:61
+msgid "SMTP"
+msgstr "SMTP"
+
+#: view/sendgrid_settings.php:60
+msgid "API"
+msgstr "API"
+
+#: view/sendgrid_settings.php:57
+msgid "Send Mail with: "
+msgstr "Enviar email con:"
+
+#: view/sendgrid_settings.php:51
+msgid "If you have both credential types set, by default the Api Key credential is used."
+msgstr "Si tienes configurados los dos tipos de credenciales, la clave de API se usará por defecto."
+
+#: view/sendgrid_settings.php:48
+msgid "Your credentials are already configured in the config file. If you want to manage them from the interface, remove them from config."
+msgstr "Tus credenciales ya están configuradas en el archivo de configuración. Si quieres administrarlas desde la interfaz, elimínalos de la configuración."
+
+#: view/sendgrid_settings.php:39
+msgid "Password: "
+msgstr "Contraseña:"
+
+#: view/sendgrid_settings.php:33
+msgid "Username: "
+msgstr "Usuario:"
+
+#: view/sendgrid_settings.php:27
+msgid "API key: "
+msgstr "Clave API:"
+
+#: view/sendgrid_settings.php:22
+msgid "Username&Password"
+msgstr "Usuario&Contraseña"
+
+#: view/sendgrid_settings.php:21
+msgid "Api Key"
+msgstr "Clave API"
+
+#: view/sendgrid_settings.php:18
+msgid "Authentication method: "
+msgstr "Método Autenticación:"
+
+#: view/sendgrid_settings.php:13
+msgid "SendGrid credentials"
+msgstr "Credenciales SendGrid"
+
+#: view/sendgrid_settings.php:5
+msgid "SendGrid Options"
+msgstr "Opciones SendGrid"
+
+#: lib/overwrite-sendgrid-methods.php:461
+msgid "SendGrid: wp_mail has been declared by another process or plugin, so you won't be able to use SendGrid until the conflict is solved."
+msgstr "SendGrid: wp_mail ha sido declarado por otro proceso o plugin, por lo que no podrás usar SendGrid hasta que se resuelva el conflicto."
+
+#. #-#-#-#-#  tmp-sendgrid-email-delivery-simplified.pot (SendGrid 1.6.4) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#. #-#-#-#-#  tmp-sendgrid-email-delivery-simplified.pot (SendGrid 1.6.4) 
+#. #-#-#-#-#
+#. Author of the plugin/theme
+#: lib/class-sendgrid-settings.php:25
+msgid "SendGrid"
+msgstr "SendGrid"
