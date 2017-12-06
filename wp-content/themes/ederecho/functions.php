@@ -1,5 +1,5 @@
 <?php
-//Importar estilos del tema padre
+//Importar estilos del tema padre--
 add_action( 'wp_enqueue_scripts', 'ed_child_enqueue_styles',99);
 function ed_child_enqueue_styles() {
     $parent_style = 'parent-style';
