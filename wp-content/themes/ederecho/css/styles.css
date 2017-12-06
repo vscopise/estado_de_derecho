@@ -200,3 +200,31 @@ p.titulo_revista {
 .banner_susc p {
     margin-bottom: 0;
 }
+.art_pago {
+    background-color: #3a4145;
+    border-radius: 10px;
+    padding: 5px 5px 5px 40px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.art_pago:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    top: 30%;
+    left: 10px;
+    content: "\f13e";
+    color: #e96656;
+}
+.art_pago * {
+    margin: 0 !important;
+    color: #fff;
+    line-height: 120%;
+}
+.art_pago h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.art_pago p {
+    font-size: 15px;
+}

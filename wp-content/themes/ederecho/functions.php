@@ -17,6 +17,12 @@ if ( get_stylesheet() !== get_template() ) {
     } );
 }
 
+//Remover scripts innecesarios
+add_action( 'wp_enqueue_scripts', 'ed_dequeue_scripts', 99 );
+function ed_dequeue_scripts() {
+    wp_dequeue_script( 'zerif_smoothscroll' );
+}
+
 add_action( 'after_switch_theme', 'ed_schedule_function' );
 function ed_schedule_function() {
     //crea un cronjob para chequear si hay usuarios que hayan expirado

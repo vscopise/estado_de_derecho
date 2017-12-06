@@ -118,6 +118,15 @@ global $paged; ?>
                                                                                         )
                                                                                 );
                                                                         ?>
+                                                                    
+                                                                        <?php if ( ! ( has_the_subscription( $current_user->ID, strtotime( date('j-n-Y') ) ) || $post->post_status=='publish' ) ) : ?>
+                                                                        <div class="art_pago">
+                                                                            <a href="<?php echo get_permalink( get_page_by_path( 'registro' ) ) ?>" >
+                                                                                <h4>Artículo exclusivo para suscriptores</h4>
+                                                                                <p>Para seguir leyendo debes estar suscripto</p>
+                                                                            </a>
+                                                                        </div>
+                                                                        <?php endif; ?>
 
                                                                         <footer class="entry-footer">
 
